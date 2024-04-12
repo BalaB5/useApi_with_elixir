@@ -94,7 +94,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Add the resource to your :api scope in lib/user_api_web/router.ex:
 
-    scope "/api", HelloWeb do
+    scope "/api", UserApiWeb do
       pipe_through :api
       resources "/users", UserController, except: [:new, :edit]
     end
