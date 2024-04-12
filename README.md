@@ -98,12 +98,12 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 Add the resource to your :api scope in lib/user_api_web/router.ex:
 
-    resources "/users", UserController, except: [:new, :edit]
+    scope "/api", HelloWeb do
+      pipe_through :api
+      resources "/users", UserController, except: [:new, :edit]
+    end
 
 
-Remember to update your repository by running migrations:
-
-    $ mix ecto.migrate
 ------------------------------------------------------------------------------------
 ## Migrate updated to database  
 
