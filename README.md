@@ -61,19 +61,19 @@ To start your Phoenix server:
 
 We are almost there! The following steps are missing:
 
-    $ cd user_api
+    cd user_api
 
 Then configure your database in config/dev.exs and run:
 
-    $ mix ecto.create
+    mix ecto.create
 
 Start your Phoenix app with:
 
-    $ mix phx.server
+    mix phx.server
 
 You can also run your app inside IEx (Interactive Elixir) as:
 
-    $ iex -S mix phx.server
+    iex -S mix phx.server
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
