@@ -1,6 +1,8 @@
 # UserApi
 
 Install the Elixir programming language.
+ 
+* Install Elixir on Windows : https://medium.com/@eugencic/installing-elixir-on-windows-a-step-by-step-guide-b68c7cb023e2
 
 Install the Phoenix project 
 
