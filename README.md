@@ -57,8 +57,6 @@ Fetch and install dependencies? [Yn] y
 * running mix assets.setup
 * running mix deps.compile    
 
-To start your Phoenix server:
-
 We are almost there! The following steps are missing:
 
     cd user_api
@@ -74,6 +72,7 @@ Start your Phoenix app with:
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ------------------------------------------------------------------------------------
+
 ## Create user api 
 
     mix phx.gen.json Accounts User users name:string age:integer e_mail:string mbl_number:integer
