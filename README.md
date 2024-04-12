@@ -73,8 +73,6 @@ Start your Phoenix app with:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
 ------------------------------------------------------------------------------------
 ## Create user api 
 
@@ -114,8 +112,9 @@ Add the resource to your :api scope in lib/user_api_web/router.ex:
 06:49:09.388 [info] == Migrated 20240412011829 in 0.0s
 
 ------------------------------------------------------------------------------------
+## Ready to run api
 
-http://127.0.0.1:4000/api/users/
+Now you can visit [`localhost:4000/api/users/`](http://localhost:4000/api/users/) from your browser.
 
 ------------------------------------------------------------------------------------
 ## Reference
