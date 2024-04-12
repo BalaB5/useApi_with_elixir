@@ -2,9 +2,11 @@
 
 Install the Elixir programming language.
 
-Install the Phoenix project generator and create your project
+Install the Phoenix project 
 
     mix archive.install hex phx_new 
+  
+Create your project:
 
     mix phx.new user_api
 
