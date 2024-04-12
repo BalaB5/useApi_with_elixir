@@ -1,4 +1,54 @@
 # UserApi
+Install the Elixir programming language
+Install the Phoenix project generator and create your project
+    mix archive.install hex phx_new 
+
+    mix phx.new user_api
+
+* creating user_api/lib/user_api/application.ex
+* creating user_api/lib/user_api.ex
+* creating user_api/lib/user_api_web/controllers/error_json.ex
+* creating user_api/lib/user_api_web/endpoint.ex
+* creating user_api/lib/user_api_web/router.ex
+* creating user_api/lib/user_api_web/telemetry.ex
+* creating user_api/lib/user_api_web.ex
+* creating user_api/mix.exs
+* creating user_api/README.md
+* creating user_api/.formatter.exs
+* creating user_api/.gitignore
+* creating user_api/test/support/conn_case.ex
+* creating user_api/test/test_helper.exs
+* creating user_api/test/user_api_web/controllers/error_json_test.exs
+* creating user_api/lib/user_api/repo.ex
+* creating user_api/priv/repo/migrations/.formatter.exs
+* creating user_api/priv/repo/seeds.exs
+* creating user_api/test/support/data_case.ex
+* creating user_api/lib/user_api_web/controllers/error_html.ex
+* creating user_api/test/user_api_web/controllers/error_html_test.exs
+* creating user_api/lib/user_api_web/components/core_components.ex
+* creating user_api/lib/user_api_web/controllers/page_controller.ex
+* creating user_api/lib/user_api_web/controllers/page_html.ex
+* creating user_api/lib/user_api_web/controllers/page_html/home.html.heex
+* creating user_api/test/user_api_web/controllers/page_controller_test.exs
+* creating user_api/lib/user_api_web/components/layouts/root.html.heex
+* creating user_api/lib/user_api_web/components/layouts/app.html.heex
+* creating user_api/lib/user_api_web/components/layouts.ex
+* creating user_api/priv/static/images/logo.svg
+* creating user_api/lib/user_api/mailer.ex
+* creating user_api/lib/user_api_web/gettext.ex
+* creating user_api/priv/gettext/en/LC_MESSAGES/errors.po
+* creating user_api/priv/gettext/errors.pot
+* creating user_api/priv/static/robots.txt
+* creating user_api/priv/static/favicon.ico
+* creating user_api/assets/js/app.js
+* creating user_api/assets/vendor/topbar.js
+* creating user_api/assets/css/app.css
+* creating user_api/assets/tailwind.config.js
+
+Fetch and install dependencies? [Yn] y
+* running mix deps.get
+* running mix assets.setup
+* running mix deps.compile    
 
 To start your Phoenix server:
 
