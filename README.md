@@ -17,7 +17,9 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
 
->>mix phx.gen.json Accounts User users name:string age:integer e_mail:string mbl_number:integer
+## Create user api 
+
+    mix phx.gen.json Accounts User users name:string age:integer e_mail:string mbl_number:integer
 
 * creating lib/user_api_web/controllers/user_controller.ex
 * creating lib/user_api_web/controllers/user_json.ex
@@ -42,7 +44,7 @@ Remember to update your repository by running migrations:
 
     $ mix ecto.migrate
 ------------------------------------------------------------------------------------
->>mix ecto.migrate
+    mix ecto.migrate
 
 06:49:09.313 [info] == Running 20240412011829 UserApi.Repo.Migrations.CreateUsers.change/0 forward
 
